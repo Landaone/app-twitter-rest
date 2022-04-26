@@ -1,0 +1,10 @@
+CREATE SCHEMA test;
+
+CREATE TABLE test.TWEET
+(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR NOT NULL,
+    text VARCHAR NOT NULL,
+    location GEOMETRY NULL,
+    valid BOOLEAN NOT NULL
+);
